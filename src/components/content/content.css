@@ -1,0 +1,29 @@
+.content {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-logo {
+  height: 180px;
+}
+
+.content-highlight-text {
+  font-family: 'KissMeorNot';
+  font-size: 60px;
+  color: #ED795A;
+}
+
+.content-bold-text {
+  font-family: 'Montserrat-SemiBold';
+  font-size: 30px;
+}
+
+.content-text {
+  width: 700px;
+  text-align: center;
+  font-family: 'Montserrat-Light';
+  font-size: 30px;
+}

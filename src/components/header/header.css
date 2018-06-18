@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-image {
+  height: 32px;
+  margin-bottom: 7px;
+}
+
+.header-text {
+  font-family: 'Montserrat-Light';
+  font-size: 20px;
+}

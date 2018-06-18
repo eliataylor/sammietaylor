@@ -1,0 +1,82 @@
+.custom-modal {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.5s linear;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 0.5s, opacity 0.5s linear;
+}
+
+.modal-view {
+  width: 80vw;
+  height: 80vh;
+  margin-top: 10vh;
+  margin-left: 10vw;
+  background-color: white;
+  border: 3px solid black;
+  display: flex;
+  flex-flow: column;
+}
+
+.modal-text-container {
+  flex: 0 1 auto;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.modal-title-text {
+  font-family: 'PetitaMedium';
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+  border-bottom: 1px solid #606060;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-text {
+  font-family: 'PetitalLight';
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  width: 57%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portfolio-view {
+  display: flex;
+  padding: 40px;
+  height: 100%;
+}
+
+.arrow-button {
+  width: 35px;
+  height: 35px;
+}
+
+.arrow-left {
+  margin-right: 35px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.arrow-right {
+  margin-left: 35px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.slider-container {
+  flex: 1 1 auto;
+}

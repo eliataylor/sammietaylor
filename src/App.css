@@ -1,0 +1,16 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  background-color: white;
+}
+
+.app-header {
+  position: absolute;
+  margin: 40px;
+}
+.app-content {
+  flex: 1 1 auto;
+  display: flex;
+}
