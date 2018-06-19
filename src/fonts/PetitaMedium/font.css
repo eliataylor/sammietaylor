@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'PetitaMedium';
+  src: url('PetitaMedium.eot');
+  src: url('PetitaMedium.woff2') format('woff2'),
+       url('PetitaMedium.woff') format('woff'),
+       url('PetitaMedium.ttf') format('truetype'),
+       url('PetitaMedium.svg#PetitaMedium') format('svg'),
+       url('PetitaMedium.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

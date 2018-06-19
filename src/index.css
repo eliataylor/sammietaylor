@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'KissMeorNot';
+  src: url('./fonts/KissMeorNot/KissMeorNot.eot');
+  src: url('./fonts/KissMeorNot/KissMeorNot.woff2') format('woff2'), url('./fonts/KissMeorNot/KissMeorNot.woff') format('woff'), url('./fonts/KissMeorNot/KissMeorNot.ttf') format('truetype'), url('./fonts/KissMeorNot/KissMeorNot.svg#KissMeorNot') format('svg'), url('./fonts/KissMeorNot/KissMeorNot.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   padding: 0;

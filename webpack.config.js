@@ -1,5 +1,7 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+
 const helpers = require('./webpackconfig/helpers')
 const path = require('path');
 
@@ -33,14 +35,28 @@ module.exports = {
         })
       },
       {
-        test: /\.(png|jpe?g|gif|svg|woff|woff2|ttf|eot|ico)$/,
-        loader: 'file-loader?name=images/[name].[hash].[ext]'
+        test: /\.(png|jpe?g|gif|ico)$/,
+        loader: 'file-loader?name=images/[name].[ext]'
       },
+      {
+        test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
+        use: [{
+          loader: 'file-loader',
+          options: {
+            name: '[name].[ext]',
+            outputPath: 'fonts/'
+          }
+        }]
+      }
     ]
   },
   plugins: [htmlWebpackPlugin,
     new ExtractTextPlugin(
       '[name].css'
       // allChunks: true
-    ),]
+    ),
+    new CopyWebpackPlugin([
+      {from:'./src/fonts/',to:'fonts'} 
+    ]),
+  ]
 };

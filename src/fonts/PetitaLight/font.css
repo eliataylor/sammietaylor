@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'PetitaLight';
+  src: url('PetitaLight.eot');
+  src: url('PetitaLight.woff2') format('woff2'),
+       url('PetitaLight.woff') format('woff'),
+       url('PetitaLight.ttf') format('truetype'),
+       url('PetitaLight.svg#PetitaLight') format('svg'),
+       url('PetitaLight.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

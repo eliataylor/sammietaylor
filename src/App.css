@@ -9,6 +9,7 @@
 .app-header {
   position: absolute;
   margin: 40px;
+  /* background-color: aqua; */
 }
 .app-content {
   flex: 1 1 auto;

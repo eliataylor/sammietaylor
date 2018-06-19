@@ -10,7 +10,7 @@ import analytics from '../../images/footer-analytics.png';
 class Footer extends Component {
   render() {
     return (
-      <div className="footer">
+      <div className="footer row">
         <FooterButton
           image={wireframe}
           text={'WIREFRAMES'}
